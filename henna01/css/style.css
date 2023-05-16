@@ -1,0 +1,116 @@
+#wrapper {
+	background-color: linen;
+	margin: auto;
+	width: 75%;
+	min-width: 700px;
+	max-width: 1024px;
+}
+
+
+main {
+	padding: 30px;
+}
+
+nav {
+	font-weight: bold;
+	text-align: center;
+	padding-top: 5px;
+
+	padding-bottom: 5px;
+	background-color: lightcoral;
+	color: papayawhip;
+}
+
+body {
+	background-color: linen;
+	background-image: url("https://media.istockphoto.com/id/1484736471/vector/the-geometric-pattern-with-wavy-lines-seamless-vector-background-repeating-tile-texture-of.jpg?s=612x612&w=0&k=20&c=MxxBdkv64aytPl68LwwLmfV9peLKhcxOTe8heOQpM6I=");
+	color: darkred;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+h1 {
+	color: papayawhip;
+}
+
+/*Make The Page Title Cute*/
+.head {
+	background-color: indianred;
+	padding: 20px;
+	text-align: center;
+}
+
+/*Make the Footer Cute*/
+.footer {
+	background-color: indianred;
+	padding: 20px;
+	text-align: center;
+}
+
+/*HomePage Image*/
+.center {
+	text-align: center;
+}
+
+/*Table*/
+table {
+	border-collapse: collapse;
+	background-color: lightpink;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th, td {
+	border: 0.5px solid indianred;
+	padding: 10px;
+}
+
+table td:hover {
+	background-color: lightcoral;
+}
+
+table th:hover {
+	background-color: lightcoral;
+}
+
+/*Forms*/
+input[type=text] {
+	padding: 10px;
+	border: 0.5px solid linen;
+}
+
+input[type=email] {
+	padding: 10px;
+	border: 0.5px solid linen;
+}
+
+input[type=submit] {
+	padding: 10px;
+	border: 1px solid indianred;
+	background-color: lightcoral;
+	color: papayawhip;
+}
+
+/*link elements*/
+a:link {
+	color: indianred;
+}
+
+a:visited {
+	color: indianred;
+}
+
+a:active {
+	color: lightcoral;
+}
+
+a:hover {
+	color: indianred;
+}
+
+.responsive {
+	width: 60%;
+	height: auto;
+}
